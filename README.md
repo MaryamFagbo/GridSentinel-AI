@@ -31,14 +31,9 @@ Most detectors stop at “attack detected”. Operators still need a safe next a
 - NumPy / Pandas
 - Streamlit
 
-## How to Run (Local)
-```bash
-pip install -r requirements.txt
-streamlit run gridsentinel_app.py
 
-
-
-## How to Run on Google Colab
+  ____________________
+  ## How to Run on Google Colab
 
 Important run order (do not skip):
 
@@ -58,3 +53,11 @@ Why this order?
 4. Open public tunnel link (Cloudflare)
 
 Open the generated `https://....trycloudflare.com` link in a new browser tab.
+
+
+## How to Run (Local)
+```bash
+pip install -r requirements.txt
+streamlit run gridsentinel_app.py
+
+
