@@ -33,7 +33,10 @@ Most detectors stop at “attack detected”. Operators still need a safe next a
 
 
   ____________________
-  ## How to Run on Google Colab
+  
+## How to Run on Google Colab
+
+THE LINK: https://colab.research.google.com/drive/1XD6sOVookTvW7y967irQpsyXsLRAtklF?usp=sharing
 
 Important run order (do not skip):
 
