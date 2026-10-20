@@ -1,0 +1,302 @@
+{
+  "seed": 7,
+  "n_per_split": 300,
+  "deployed": {
+    "n": 300,
+    "proceed_rate": 0.3233333333333333,
+    "caution_rate": 0.4866666666666667,
+    "validate_rate": 0.19,
+    "unsafe_given_proceed": 0.041237113402061855,
+    "unsafe_proceed_joint": 0.013333333333333334,
+    "wrong_action_given_proceed": 0.21649484536082475,
+    "bound_coverage": 0.9266666666666666,
+    "unsafe_rate_all": 0.21333333333333335,
+    "per_type": {
+      "adaptive": {
+        "n": 63,
+        "proceed": 0.015873015873015872,
+        "unsafe_proceed": 0.015873015873015872
+      },
+      "multi_coordinated": {
+        "n": 43,
+        "proceed": 0.4418604651162791,
+        "unsafe_proceed": 0.0
+      },
+      "none": {
+        "n": 52,
+        "proceed": 0.34615384615384615,
+        "unsafe_proceed": 0.0
+      },
+      "random_single": {
+        "n": 34,
+        "proceed": 0.6176470588235294,
+        "unsafe_proceed": 0.0
+      },
+      "single_small": {
+        "n": 50,
+        "proceed": 0.64,
+        "unsafe_proceed": 0.0
+      },
+      "stealth_partial": {
+        "n": 58,
+        "proceed": 0.10344827586206896,
+        "unsafe_proceed": 0.05172413793103448
+      }
+    }
+  },
+  "hardened": {
+    "n": 300,
+    "proceed_rate": 0.2833333333333333,
+    "caution_rate": 0.46,
+    "validate_rate": 0.25666666666666665,
+    "unsafe_given_proceed": 0.0,
+    "unsafe_proceed_joint": 0.0,
+    "wrong_action_given_proceed": 0.16470588235294117,
+    "bound_coverage": 0.8866666666666667,
+    "unsafe_rate_all": 0.2833333333333333,
+    "per_type": {
+      "adaptive": {
+        "n": 56,
+        "proceed": 0.03571428571428571,
+        "unsafe_proceed": 0.0
+      },
+      "multi_coordinated": {
+        "n": 50,
+        "proceed": 0.18,
+        "unsafe_proceed": 0.0
+      },
+      "none": {
+        "n": 39,
+        "proceed": 0.717948717948718,
+        "unsafe_proceed": 0.0
+      },
+      "random_single": {
+        "n": 44,
+        "proceed": 0.5454545454545454,
+        "unsafe_proceed": 0.0
+      },
+      "single_small": {
+        "n": 46,
+        "proceed": 0.4782608695652174,
+        "unsafe_proceed": 0.0
+      },
+      "stealth_partial": {
+        "n": 65,
+        "proceed": 0.0,
+        "unsafe_proceed": 0.0
+      }
+    }
+  },
+  "stealth_full_deployed": {
+    "n": 100,
+    "proceed_rate": 0.3,
+    "caution_rate": 0.7,
+    "validate_rate": 0.0,
+    "unsafe_given_proceed": 1.0,
+    "unsafe_proceed_joint": 0.3,
+    "wrong_action_given_proceed": 0.6,
+    "bound_coverage": 0.09,
+    "unsafe_rate_all": 1.0,
+    "per_type": {
+      "stealth_full": {
+        "n": 100,
+        "proceed": 0.3,
+        "unsafe_proceed": 0.3
+      }
+    }
+  },
+  "stealth_full_hardened": {
+    "n": 100,
+    "proceed_rate": 0.31,
+    "caution_rate": 0.68,
+    "validate_rate": 0.01,
+    "unsafe_given_proceed": 1.0,
+    "unsafe_proceed_joint": 0.31,
+    "wrong_action_given_proceed": 0.6451612903225806,
+    "bound_coverage": 0.0,
+    "unsafe_rate_all": 1.0,
+    "per_type": {
+      "stealth_full": {
+        "n": 100,
+        "proceed": 0.31,
+        "unsafe_proceed": 0.31
+      }
+    }
+  },
+  "detection": {
+    "GridSentinel (flags/isolates)": {
+      "precision": 0.9820359281437125,
+      "recall": 0.6612903225806451,
+      "f1": 0.7903614457831324,
+      "fpr": 0.057692307692307696
+    },
+    "WLS + chi-square": {
+      "precision": 1.0,
+      "recall": 0.7016129032258065,
+      "f1": 0.8246445497630333,
+      "fpr": 0.0
+    },
+    "WLS + LNR (>3)": {
+      "precision": 0.9561752988047809,
+      "recall": 0.967741935483871,
+      "f1": 0.9619238476953909,
+      "fpr": 0.21153846153846154
+    },
+    "IsolationForest (raw z)": {
+      "precision": 1.0,
+      "recall": 0.06451612903225806,
+      "f1": 0.12121212121212122,
+      "fpr": 0.0
+    }
+  },
+  "per_attack": [
+    {
+      "attack": "none",
+      "n": 52,
+      "rmse_naive_pu": 0.0021832846874202142,
+      "rmse_huber_pu": 0.0021754622449055147,
+      "rmse_recovered_pu": 0.002187803972682673,
+      "median_naive_pu": 0.0019807727199927516,
+      "median_recovered_pu": 0.0020123675132756036,
+      "p90_recovered_pu": 0.0029502337410694636,
+      "iso_recall": NaN,
+      "iso_precision": 0.0,
+      "wrong_action_naive": 0.21153846153846154,
+      "wrong_action_recovered": 0.19230769230769232,
+      "proceed_rate": 0.34615384615384615,
+      "unsafe_proceed": 0.0
+    },
+    {
+      "attack": "random_single",
+      "n": 34,
+      "rmse_naive_pu": 0.008555528433017812,
+      "rmse_huber_pu": 0.0022246077551687986,
+      "rmse_recovered_pu": 0.002172299456510014,
+      "median_naive_pu": 0.004562302584890987,
+      "median_recovered_pu": 0.0020573368176314277,
+      "p90_recovered_pu": 0.002968061855767812,
+      "iso_recall": 1.0,
+      "iso_precision": 1.0,
+      "wrong_action_naive": 0.5588235294117647,
+      "wrong_action_recovered": 0.17647058823529413,
+      "proceed_rate": 0.6176470588235294,
+      "unsafe_proceed": 0.0
+    },
+    {
+      "attack": "single_small",
+      "n": 50,
+      "rmse_naive_pu": 0.0025655926234508255,
+      "rmse_huber_pu": 0.0023777976932882693,
+      "rmse_recovered_pu": 0.0023359223878891503,
+      "median_naive_pu": 0.002320892043397582,
+      "median_recovered_pu": 0.0019200966026007293,
+      "p90_recovered_pu": 0.0034767534549929647,
+      "iso_recall": 0.66,
+      "iso_precision": 1.0,
+      "wrong_action_naive": 0.16,
+      "wrong_action_recovered": 0.14,
+      "proceed_rate": 0.64,
+      "unsafe_proceed": 0.0
+    },
+    {
+      "attack": "multi_coordinated",
+      "n": 43,
+      "rmse_naive_pu": 0.004727851833146343,
+      "rmse_huber_pu": 0.002679267819537122,
+      "rmse_recovered_pu": 0.0026552150040280815,
+      "median_naive_pu": 0.003852141304626633,
+      "median_recovered_pu": 0.00251915911202083,
+      "p90_recovered_pu": 0.003464672135722414,
+      "iso_recall": 0.8,
+      "iso_precision": 1.0,
+      "wrong_action_naive": 0.4186046511627907,
+      "wrong_action_recovered": 0.20930232558139536,
+      "proceed_rate": 0.4418604651162791,
+      "unsafe_proceed": 0.0
+    },
+    {
+      "attack": "stealth_partial",
+      "n": 58,
+      "rmse_naive_pu": 0.04358195447994237,
+      "rmse_huber_pu": 0.0488171816516515,
+      "rmse_recovered_pu": 0.042697067532225796,
+      "median_naive_pu": 0.039864374041541195,
+      "median_recovered_pu": 0.039536622072717464,
+      "p90_recovered_pu": 0.06506714647521575,
+      "iso_recall": 0.29646017699115046,
+      "iso_precision": 0.5134099616858238,
+      "wrong_action_naive": 0.7758620689655172,
+      "wrong_action_recovered": 0.5172413793103449,
+      "proceed_rate": 0.10344827586206896,
+      "unsafe_proceed": 0.05172413793103448
+    },
+    {
+      "attack": "adaptive",
+      "n": 63,
+      "rmse_naive_pu": 0.017396442575623103,
+      "rmse_huber_pu": 0.017584468385553276,
+      "rmse_recovered_pu": 0.01758372710981066,
+      "median_naive_pu": 0.008291854572700874,
+      "median_recovered_pu": 0.008568379676212379,
+      "p90_recovered_pu": 0.019365563580859755,
+      "iso_recall": 0.0,
+      "iso_precision": 0.0,
+      "wrong_action_naive": 0.3492063492063492,
+      "wrong_action_recovered": 0.3333333333333333,
+      "proceed_rate": 0.015873015873015872,
+      "unsafe_proceed": 0.015873015873015872
+    }
+  ],
+  "ablation": {
+    "Full GridSentinel": {
+      "median": 0.0029910014494691772,
+      "p90": 0.042836841753308576,
+      "naive_p90": 0.046349305983784575,
+      "iso_recall": 0.2857142857142857,
+      "false_iso": 0.4066666666666667
+    },
+    "No trust weighting": {
+      "median": 0.003202838987801715,
+      "p90": 0.051419636612630465,
+      "naive_p90": 0.046349305983784575,
+      "iso_recall": 0.0,
+      "false_iso": 0.0
+    },
+    "No observability guard": {
+      "median": 0.0029910014494691772,
+      "p90": 0.042836841753308576,
+      "naive_p90": 0.046349305983784575,
+      "iso_recall": 0.2857142857142857,
+      "false_iso": 0.4066666666666667
+    },
+    "Basic meter set (no flows)": {
+      "median": 0.00898253432249696,
+      "p90": 0.0686485262440564,
+      "naive_p90": 0.06960494395495455,
+      "iso_recall": 0.06678082191780822,
+      "false_iso": 0.07666666666666666
+    },
+    "No gate (always proceed)": {
+      "unsafe_rate": 0.21333333333333335,
+      "p90": 0.042836841753308576
+    }
+  },
+  "runtime_ms": {
+    "median_ms": 6.530319999995982,
+    "p95_ms": 18.18808334996618
+  },
+  "aurc": {
+    "GridSentinel gate": 0.10311289203746986,
+    "chi-square (raw J)": 0.1380016395756742,
+    "always-proceed": 0.21333333333333335
+  },
+  "protected_meters": [
+    "P_inj@B4",
+    "P_inj@B6",
+    "P_inj@B9",
+    "V@B1",
+    "V@B8"
+  ],
+  "alpha": 0.1,
+  "tol_pu": 0.01
+}
