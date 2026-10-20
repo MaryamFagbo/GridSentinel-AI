@@ -1,8 +1,0 @@
-pandapower==3.5.6
-numpy
-scipy
-pandas
-scikit-learn
-matplotlib
-streamlit
-pytest
