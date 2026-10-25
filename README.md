@@ -45,10 +45,19 @@ python -m pytest -q test_gridsentinel.py                # tests
 ```
 **Google Colab:** open `GridSentinel_Colab_selfcontained.ipynb`, then Runtime → Run all. The last cell prints a public link to the demo.
 
-https://colab.research.google.com/drive/1pyrGRElP25TlEZZ6eIHSskiGBcTLCu_1?usp=sharing
 
 ## Demo guide
 In the **Operator panel** choose a seed, tick *Fixed seed* for repeatability, and pick a scenario: none, random single, multi, stealth (partial), adaptive attacker, or custom. Read the **Attack status** banner, then the **Trust Gate** verdict, then open **Recovery Accuracy Evaluation** for the before/after table.
+| | |
+|:--:|:--:|
+| ![Operator panel](docs/Operator%20panel.png) | ![Attack status](docs/Attack%20status%20banner.png) |
+| *Operator panel* | *Attack status banner* |
+| ![Trust Gate + Recovery](docs/Trust%20Gate%20%2B%20Recovery%20Accuracy%20table.png) | ![Hardening](docs/Hardening.png) |
+| *Trust Gate + Recovery Accuracy* | *Hardening view* |
+
+![Full interface](docs/Interface%20GS%20AI.png)
+*Full GridSentinel AI interface
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1pyrGRElP25TlEZZ6eIHSskiGBcTLCu_1?usp=sharing)
 
 ## Repository layout
 | File | Purpose |
