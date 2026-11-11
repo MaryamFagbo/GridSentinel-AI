@@ -28,13 +28,15 @@ Grid operators make decisions (voltage control, dispatch, load shedding) from se
 
 Full tables, ablations and plots: [`results/results_summary.md`](results/results_summary.md).
 
+Multi-grid results on IEEE 14, 30, 57 and 118 (5 seeds for 14/30/57, 3 for 118) are in [`docs/EXPERIMENTS.md`](docs/EXPERIMENTS.md). The algorithm is described step by step in [`docs/ALGORITHM.md`](docs/ALGORITHM.md).
+
 ![calibration](results/calibration.png)
 ![risk-coverage](results/risk_coverage.png)
 
 ## Honest limits
 - Perfect stealth attacks (attacker controls far more meters than the modelled budget of 8) leave every residual unchanged. No estimator-side method can detect them. The guarantee holds inside the stated attacker budget.
 - Partial-stealth and adaptive attacks are mostly not recoverable; the gate sends them to operator review instead of guessing.
-- Simulation on one network (IEEE 14-bus), load range ±20%. Results are reproducible with the scripts below.
+- Simulation only, on pandapower benchmark grids (IEEE 14, 30, 57, 118) with synthetic attacks and a ±20% load range. Not validated on real SCADA data. The error bound holds for scenarios from the same generator. Recovery gains shrink and clean false alarms rise on larger grids (2% on IEEE 14 up to 17% on IEEE 118). Details in [`docs/EXPERIMENTS.md`](docs/EXPERIMENTS.md). Results are reproducible with the scripts below.
 
 ## Quick start
 ```bash
@@ -42,6 +44,7 @@ pip install -r requirements.txt
 python batch_eval.py --n 300 --seed 7 --out results   # ~2 min, reproduces the numbers above
 streamlit run gridsentinel_app.py                       # live demo
 python -m pytest -q test_gridsentinel.py                # tests
+python multi_grid_eval.py --cases case14 case30 --quick --out results_test   # ~1 min smoke test on other grids
 ```
 **Google Colab:** open `GridSentinel_Colab_selfcontained.ipynb`, then Runtime → Run all. The last cell prints a public link to the demo.
 
@@ -56,7 +59,8 @@ In the **Operator panel** choose a seed, tick *Fixed seed* for repeatability, an
 | *Trust Gate + Recovery Accuracy* | *Hardening view* |
 
 ![Full interface](docs/Interface%20GS%20AI.png)
-*Full GridSentinel AI interface
+*Full GridSentinel AI interface*
+
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1pyrGRElP25TlEZZ6eIHSskiGBcTLCu_1?usp=sharing)
 
 ## Repository layout
@@ -68,6 +72,10 @@ In the **Operator panel** choose a seed, tick *Fixed seed* for repeatability, an
 | `test_gridsentinel.py` | Correctness tests (Jacobian, no truth leak, stealth limit, reproducibility) |
 | `gate_calibration.json` | Pre-fitted gate so the demo starts instantly |
 | `results/` | Measured outputs and plots |
+| `multi_grid_eval.py` | Multi-grid, multi-seed evaluation (IEEE 14 / 30 / 57 / 118) |
+| `docs/ALGORITHM.md` | Step-by-step algorithm, equations, parameters, data generation |
+| `docs/EXPERIMENTS.md` | Multi-grid results, what they support and what they do not |
+| `results_multigrid/`, `results_multigrid_118/` | Raw multi-grid results |
 
 ## Tech stack
 Python · pandapower 3.5.6 · NumPy / SciPy / pandas · scikit-learn · Streamlit
