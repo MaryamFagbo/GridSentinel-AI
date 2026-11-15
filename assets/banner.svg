@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300" role="img" aria-label="GridSentinel AI">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#01361a"/><stop offset="1" stop-color="#0a4a25"/></linearGradient>
+<filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="7" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<style>
+.bolt{animation:flick 3.4s infinite}
+.halo{animation:halo 3.4s infinite;transform-origin:230px 150px}
+.ring{fill:none;stroke:#8fd16b;stroke-width:2;transform-origin:230px 150px;animation:ring 3.4s infinite}
+.ring.r2{animation-delay:.25s}
+.link{stroke:#8fd16b;stroke-width:1.6;stroke-dasharray:6 8;opacity:.55;animation:flow 2.4s linear infinite}
+.dot{fill:#8fd16b;animation:blink 3.4s infinite}
+.t1{font:700 64px 'Segoe UI',Arial,sans-serif;fill:#f3f1e6}
+.t1 tspan{fill:#8fd16b}
+.t2{font:400 24px 'Segoe UI',Arial,sans-serif;fill:#b9d2bf}
+@keyframes flick{0%,100%{opacity:.45}6%{opacity:1}12%{opacity:.35}18%{opacity:1}30%{opacity:.95}70%{opacity:.8}}
+@keyframes halo{0%,100%{opacity:.15;transform:scale(.9)}6%,18%{opacity:.6;transform:scale(1.15)}50%{opacity:.25;transform:scale(1)}}
+@keyframes ring{0%{opacity:.0;transform:scale(.6)}8%{opacity:.8}100%{opacity:0;transform:scale(2.4)}}
+@keyframes flow{to{stroke-dashoffset:-56}}
+@keyframes blink{0%,100%{opacity:.4}8%,20%{opacity:1}}
+</style>
+</defs>
+<rect width="1200" height="300" fill="url(#bg)"/>
+<g opacity=".9"><line class="link" x1="460" y1="70" x2="640" y2="40"/><line class="link" x1="640" y1="40" x2="880" y2="90"/><line class="link" x1="880" y1="90" x2="1080" y2="50"/><line class="link" x1="520" y1="250" x2="760" y2="270"/><line class="link" x1="760" y1="270" x2="1000" y2="235"/><line class="link" x1="1000" y1="235" x2="1130" y2="150"/>
+<circle class="dot" cx="460" cy="70" r="5"/><circle class="dot" cx="640" cy="40" r="5"/><circle class="dot" cx="880" cy="90" r="5"/><circle class="dot" cx="1080" cy="50" r="5"/><circle class="dot" cx="520" cy="250" r="5"/><circle class="dot" cx="760" cy="270" r="5"/><circle class="dot" cx="1000" cy="235" r="5"/><circle class="dot" cx="1130" cy="150" r="5"/></g>
+<circle class="halo" cx="230" cy="150" r="95" fill="#8fd16b"/>
+<circle class="ring" cx="230" cy="150" r="60"/><circle class="ring r2" cx="230" cy="150" r="60"/>
+<path class="bolt" filter="url(#glow)" d="M252 62 176 166h56l-22 76 84-116h-58z" fill="#f2c76d"/>
+<text class="t1" x="370" y="160">GridSentinel <tspan>AI</tspan></text>
+<text class="t2" x="372" y="204">Trust-aware resilience for smart grids</text>
+<text class="t2" x="372" y="240" font-size="18" fill="#8fd16b">PROCEED · CAUTION · VALIDATE</text>
+</svg>

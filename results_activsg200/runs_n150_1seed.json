@@ -1,0 +1,20 @@
+[
+ {
+  "case": "case_ACTIVSg200.m",
+  "seed": 7,
+  "n_test": 150,
+  "n_bus": 200,
+  "bound_coverage": 0.92,
+  "proceed_rate": 0.0,
+  "unsafe_given_proceed": NaN,
+  "unsafe_proceed_joint": 0.0,
+  "unsafe_rate_all": 0.2866666666666667,
+  "isolation_recall": 0.22361359570661896,
+  "clean_false_alarm": 0.22727272727272727,
+  "n_clean": 22,
+  "median_err_naive": 0.0063282784241178724,
+  "median_err_recovered": 0.006230388496966555,
+  "median_ms_pipeline": 2663.5440514996844,
+  "wall_s": 2288.012997150421
+ }
+]

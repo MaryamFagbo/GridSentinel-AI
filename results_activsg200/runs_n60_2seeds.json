@@ -1,0 +1,38 @@
+[
+ {
+  "case": "case_ACTIVSg200.m",
+  "seed": 7,
+  "n_test": 60,
+  "n_bus": 200,
+  "bound_coverage": 0.95,
+  "proceed_rate": 0.0,
+  "unsafe_given_proceed": NaN,
+  "unsafe_proceed_joint": 0.0,
+  "unsafe_rate_all": 0.31666666666666665,
+  "isolation_recall": 0.1981981981981982,
+  "clean_false_alarm": 0.1111111111111111,
+  "n_clean": 9,
+  "median_err_naive": 0.007960699079768485,
+  "median_err_recovered": 0.0072823003342783466,
+  "median_ms_pipeline": 2713.7019494999777,
+  "wall_s": 824.2539546489716
+ },
+ {
+  "case": "case_ACTIVSg200.m",
+  "seed": 11,
+  "n_test": 60,
+  "n_bus": 200,
+  "bound_coverage": 0.95,
+  "proceed_rate": 0.0,
+  "unsafe_given_proceed": NaN,
+  "unsafe_proceed_joint": 0.0,
+  "unsafe_rate_all": 0.35,
+  "isolation_recall": 0.2146118721461187,
+  "clean_false_alarm": 0.14285714285714285,
+  "n_clean": 7,
+  "median_err_naive": 0.006669075604655461,
+  "median_err_recovered": 0.0066597389408167285,
+  "median_ms_pipeline": 2750.318720500104,
+  "wall_s": 895.833694934845
+ }
+]

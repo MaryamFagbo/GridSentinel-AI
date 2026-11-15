@@ -1,0 +1,160 @@
+{
+ "shift": {
+  "in-distribution (control)": {
+   "bound_coverage": {
+    "mean": 0.9073333333333334,
+    "ci95": 0.018867651328839687
+   },
+   "proceed_rate": {
+    "mean": 0.36533333333333334,
+    "ci95": 0.07419289693464974
+   },
+   "unsafe_given_proceed": {
+    "mean": 0.04437525797875458,
+    "ci95": 0.010255608190660272
+   },
+   "unsafe_proceed_joint": {
+    "mean": 0.016,
+    "ci95": 0.003809555237965596
+   }
+  },
+  "load range 0.6-1.4 (was 0.8-1.2)": {
+   "bound_coverage": {
+    "mean": 0.9019999999999999,
+    "ci95": 0.013164301897345134
+   },
+   "proceed_rate": {
+    "mean": 0.32199999999999995,
+    "ci95": 0.06677437432628378
+   },
+   "unsafe_given_proceed": {
+    "mean": 0.039593833308103156,
+    "ci95": 0.011921698458757783
+   },
+   "unsafe_proceed_joint": {
+    "mean": 0.013333333333333332,
+    "ci95": 0.00685221780804499
+   }
+  },
+  "attack mix: 90% adaptive/stealth-partial": {
+   "bound_coverage": {
+    "mean": 0.7973333333333333,
+    "ci95": 0.021210705892177294
+   },
+   "proceed_rate": {
+    "mean": 0.12733333333333333,
+    "ci95": 0.03142798187037221
+   },
+   "unsafe_given_proceed": {
+    "mean": 0.3619085477891212,
+    "ci95": 0.0901909066500375
+   },
+   "unsafe_proceed_joint": {
+    "mean": 0.04533333333333333,
+    "ci95": 0.01621530689742805
+   }
+  },
+  "both shifts together": {
+   "bound_coverage": {
+    "mean": 0.7933333333333332,
+    "ci95": 0.018822350780093554
+   },
+   "proceed_rate": {
+    "mean": 0.1,
+    "ci95": 0.04724824276567801
+   },
+   "unsafe_given_proceed": {
+    "mean": 0.4131302650837535,
+    "ci95": 0.07860775496181711
+   },
+   "unsafe_proceed_joint": {
+    "mean": 0.04,
+    "ci95": 0.020137085743031986
+   }
+  },
+  "out-of-model: stealth_full only": {
+   "bound_coverage": {
+    "mean": 0.12866666666666665,
+    "ci95": 0.0737601470232326
+   },
+   "proceed_rate": {
+    "mean": 0.2986666666666667,
+    "ci95": 0.12615594300529626
+   },
+   "unsafe_given_proceed": {
+    "mean": 1.0,
+    "ci95": 0.0
+   },
+   "unsafe_proceed_joint": {
+    "mean": 0.2986666666666667,
+    "ci95": 0.12615594300529626
+   }
+  }
+ },
+ "autoencoder": {
+  "GridSentinel": {
+   "recall": {
+    "mean": 0.6818055558840556,
+    "ci95": 0.030944414956229568
+   },
+   "false_alarm": {
+    "mean": 0.02266691440604484,
+    "ci95": 0.018654366461349332
+   }
+  },
+  "Autoencoder (clean-trained)": {
+   "recall": {
+    "mean": 0.8539912324423868,
+    "ci95": 0.024160537249862103
+   },
+   "false_alarm": {
+    "mean": 0.06531491053230185,
+    "ci95": 0.02017431484566786
+   }
+  }
+ },
+ "clean_false_alarm_load_shift": {
+  "GridSentinel": {
+   "mean": 0.012,
+   "ci95": 0.0026133333333333334
+  },
+  "Autoencoder (clean-trained)": {
+   "mean": 0.12733333333333333,
+   "ci95": 0.027517667859839518
+  }
+ },
+ "per_mode_recall": {
+  "adaptive": {
+   "GridSentinel": 0.015986811391223155,
+   "Autoencoder (clean-trained)": 0.9444794584500468
+  },
+  "multi_coordinated": {
+   "GridSentinel": 0.9896345514950167,
+   "Autoencoder (clean-trained)": 0.9422805028988339
+  },
+  "random_single": {
+   "GridSentinel": 1.0,
+   "Autoencoder (clean-trained)": 0.9071740394460738
+  },
+  "single_small": {
+   "GridSentinel": 0.6677671957671958,
+   "Autoencoder (clean-trained)": 0.37792063492063493
+  },
+  "stealth_full (out-of-model)": {
+   "GridSentinel": 0.013333333333333332,
+   "Autoencoder (clean-trained)": 1.0
+  },
+  "stealth_partial": {
+   "GridSentinel": 0.902287500499239,
+   "Autoencoder (clean-trained)": 1.0
+  }
+ },
+ "seeds": [
+  7,
+  11,
+  13,
+  17,
+  19
+ ],
+ "n": 300
+}

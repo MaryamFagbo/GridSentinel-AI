@@ -1,0 +1,272 @@
+{
+ "0.005 | A (shipped)": [
+  {
+   "attack_unsafe": 0.0,
+   "proceed": 0.24,
+   "joint": 0.0
+  },
+  {
+   "attack_unsafe": 0.0,
+   "proceed": 0.845,
+   "joint": 0.0
+  },
+  {
+   "attack_unsafe": 0.0,
+   "proceed": 0.29,
+   "joint": 0.0
+  },
+  {
+   "attack_unsafe": 0.0,
+   "proceed": 0.925,
+   "joint": 0.0
+  },
+  {
+   "attack_unsafe": 0.0,
+   "proceed": 0.32,
+   "joint": 0.0
+  }
+ ],
+ "0.005 | H (hybrid)": [
+  {
+   "attack_unsafe": 0.0,
+   "proceed": 0.87,
+   "joint": 0.0
+  },
+  {
+   "attack_unsafe": 0.0,
+   "proceed": 0.755,
+   "joint": 0.0
+  },
+  {
+   "attack_unsafe": 0.0,
+   "proceed": 0.85,
+   "joint": 0.0
+  },
+  {
+   "attack_unsafe": 0.0,
+   "proceed": 0.825,
+   "joint": 0.0
+  },
+  {
+   "attack_unsafe": 0.0,
+   "proceed": 0.845,
+   "joint": 0.0
+  }
+ ],
+ "0.01 | A (shipped)": [
+  {
+   "attack_unsafe": 0.48,
+   "proceed": 0.31,
+   "joint": 0.125
+  },
+  {
+   "attack_unsafe": 0.435,
+   "proceed": 0.845,
+   "joint": 0.375
+  },
+  {
+   "attack_unsafe": 0.54,
+   "proceed": 0.2,
+   "joint": 0.105
+  },
+  {
+   "attack_unsafe": 0.505,
+   "proceed": 0.925,
+   "joint": 0.465
+  },
+  {
+   "attack_unsafe": 0.465,
+   "proceed": 0.31,
+   "joint": 0.14
+  }
+ ],
+ "0.01 | H (hybrid)": [
+  {
+   "attack_unsafe": 0.48,
+   "proceed": 0.595,
+   "joint": 0.275
+  },
+  {
+   "attack_unsafe": 0.435,
+   "proceed": 0.535,
+   "joint": 0.245
+  },
+  {
+   "attack_unsafe": 0.54,
+   "proceed": 0.67,
+   "joint": 0.355
+  },
+  {
+   "attack_unsafe": 0.505,
+   "proceed": 0.57,
+   "joint": 0.295
+  },
+  {
+   "attack_unsafe": 0.465,
+   "proceed": 0.665,
+   "joint": 0.33
+  }
+ ],
+ "0.02 | A (shipped)": [
+  {
+   "attack_unsafe": 1.0,
+   "proceed": 0.215,
+   "joint": 0.215
+  },
+  {
+   "attack_unsafe": 1.0,
+   "proceed": 0.895,
+   "joint": 0.895
+  },
+  {
+   "attack_unsafe": 1.0,
+   "proceed": 0.205,
+   "joint": 0.205
+  },
+  {
+   "attack_unsafe": 1.0,
+   "proceed": 0.945,
+   "joint": 0.945
+  },
+  {
+   "attack_unsafe": 1.0,
+   "proceed": 0.325,
+   "joint": 0.325
+  }
+ ],
+ "0.02 | H (hybrid)": [
+  {
+   "attack_unsafe": 1.0,
+   "proceed": 0.125,
+   "joint": 0.125
+  },
+  {
+   "attack_unsafe": 1.0,
+   "proceed": 0.3,
+   "joint": 0.3
+  },
+  {
+   "attack_unsafe": 1.0,
+   "proceed": 0.31,
+   "joint": 0.31
+  },
+  {
+   "attack_unsafe": 1.0,
+   "proceed": 0.085,
+   "joint": 0.085
+  },
+  {
+   "attack_unsafe": 1.0,
+   "proceed": 0.295,
+   "joint": 0.295
+  }
+ ],
+ "0.03 | A (shipped)": [
+  {
+   "attack_unsafe": 1.0,
+   "proceed": 0.215,
+   "joint": 0.215
+  },
+  {
+   "attack_unsafe": 1.0,
+   "proceed": 0.835,
+   "joint": 0.835
+  },
+  {
+   "attack_unsafe": 1.0,
+   "proceed": 0.225,
+   "joint": 0.225
+  },
+  {
+   "attack_unsafe": 1.0,
+   "proceed": 0.915,
+   "joint": 0.915
+  },
+  {
+   "attack_unsafe": 1.0,
+   "proceed": 0.305,
+   "joint": 0.305
+  }
+ ],
+ "0.03 | H (hybrid)": [
+  {
+   "attack_unsafe": 1.0,
+   "proceed": 0.0,
+   "joint": 0.0
+  },
+  {
+   "attack_unsafe": 1.0,
+   "proceed": 0.015,
+   "joint": 0.015
+  },
+  {
+   "attack_unsafe": 1.0,
+   "proceed": 0.01,
+   "joint": 0.01
+  },
+  {
+   "attack_unsafe": 1.0,
+   "proceed": 0.02,
+   "joint": 0.02
+  },
+  {
+   "attack_unsafe": 1.0,
+   "proceed": 0.01,
+   "joint": 0.01
+  }
+ ],
+ "0.05 | A (shipped)": [
+  {
+   "attack_unsafe": 1.0,
+   "proceed": 0.27,
+   "joint": 0.27
+  },
+  {
+   "attack_unsafe": 1.0,
+   "proceed": 0.85,
+   "joint": 0.85
+  },
+  {
+   "attack_unsafe": 1.0,
+   "proceed": 0.18,
+   "joint": 0.18
+  },
+  {
+   "attack_unsafe": 1.0,
+   "proceed": 0.92,
+   "joint": 0.92
+  },
+  {
+   "attack_unsafe": 1.0,
+   "proceed": 0.33,
+   "joint": 0.33
+  }
+ ],
+ "0.05 | H (hybrid)": [
+  {
+   "attack_unsafe": 1.0,
+   "proceed": 0.0,
+   "joint": 0.0
+  },
+  {
+   "attack_unsafe": 1.0,
+   "proceed": 0.0,
+   "joint": 0.0
+  },
+  {
+   "attack_unsafe": 1.0,
+   "proceed": 0.0,
+   "joint": 0.0
+  },
+  {
+   "attack_unsafe": 1.0,
+   "proceed": 0.0,
+   "joint": 0.0
+  },
+  {
+   "attack_unsafe": 1.0,
+   "proceed": 0.0,
+   "joint": 0.0
+  }
+ ]
+}

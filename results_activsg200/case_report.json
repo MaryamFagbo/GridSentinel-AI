@@ -1,0 +1,14 @@
+{
+ "buses": 200,
+ "lines": 179,
+ "trafos": 0,
+ "gens": 37,
+ "sgens": 0,
+ "loads": 108,
+ "shunts": 4,
+ "ext_grids": 1,
+ "power_flow_converged": true,
+ "vm_min": 1.0102414619646605,
+ "vm_max": 1.0553647946160094,
+ "total_load_mw": 1475.6899999999998
+}

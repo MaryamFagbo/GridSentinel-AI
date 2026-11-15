@@ -48,7 +48,7 @@ Two questions GridSentinel answers for every snapshot:
 - Load scenario: global scale ~ U(0.8, 1.2) times per-load noise N(1, 0.05) clipped to [0.7, 1.3]; AC power flow gives `x_true`.
 - Measurements: `h(x_true)` + Gaussian noise (sigma above).
 - Attack mix (in-model): none 15%, random single 15%, single small 15%, multi-coordinated 15%, stealth partial 20%, adaptive (white-box against the trust rule) 20%. Attacker budget `K_MAX = 8` meters.
-- Out-of-model test: `stealth_full` (a = H c on all relevant meters; the chi-square statistic is provably unchanged). GridSentinel does **not** claim to detect this; it is used to show hardening: protecting a small set of meters raises the attacker's cost.
+- Out-of-model test: `stealth_full`: the attacker shifts the voltage at one bus by 0.03-0.08 pu and changes every meter that reflects it by a = h(x+c) - h(x) (the AC-exact form of Liu et al.'s a = Hc). Residuals and the chi-square statistic are then unchanged. The attacker must control every meter in the support of a (its 'stealth cost'). GridSentinel does **not** claim to detect this; it is used to show hardening: protecting a small set of meters raises the attacker's cost.
 
 ## 6. Evaluation protocol
 
@@ -61,7 +61,7 @@ Two questions GridSentinel answers for every snapshot:
 
 - Synthetic data only; the generator and the calibration come from the same family, so coverage holds *within* that family.
 - Gaussian noise, static (single-snapshot) SE, no topology errors, no time dynamics.
-- Fully stealthy attacks (`a = H c`) are invisible to residual-based detection by construction; only hardening (protecting meters) helps.
+- Fully stealthy attacks (`a = h(x+c) - h(x)`, the AC form of Liu et al.'s `a = Hc`) are invisible to residual-based detection by construction; only hardening (protecting meters) helps.
 - Isolation recall on the mixed set is low because many attacks are stealth-partial/adaptive by design; the gate's job is to say *"I'm not sure"* rather than to detect everything.
 - On larger grids the benefit of recovery shrinks (see experiments).
 

@@ -1,0 +1,164 @@
+{
+ "A: calibrated on default mix | test: default mix": [
+  {
+   "bound_coverage": 0.91,
+   "proceed_rate": 0.38333333333333336,
+   "unsafe_given_proceed": 0.017391304347826087
+  },
+  {
+   "bound_coverage": 0.9366666666666666,
+   "proceed_rate": 0.36333333333333334,
+   "unsafe_given_proceed": 0.03669724770642202
+  },
+  {
+   "bound_coverage": 0.94,
+   "proceed_rate": 0.37333333333333335,
+   "unsafe_given_proceed": 0.03571428571428571
+  },
+  {
+   "bound_coverage": 0.8933333333333333,
+   "proceed_rate": 0.32666666666666666,
+   "unsafe_given_proceed": 0.030612244897959183
+  },
+  {
+   "bound_coverage": 0.9333333333333333,
+   "proceed_rate": 0.45666666666666667,
+   "unsafe_given_proceed": 0.021897810218978103
+  }
+ ],
+ "A: calibrated on default mix | test: pessimistic mix": [
+  {
+   "bound_coverage": 0.7933333333333333,
+   "proceed_rate": 0.08,
+   "unsafe_given_proceed": 0.4166666666666667
+  },
+  {
+   "bound_coverage": 0.81,
+   "proceed_rate": 0.17333333333333334,
+   "unsafe_given_proceed": 0.21153846153846154
+  },
+  {
+   "bound_coverage": 0.8533333333333334,
+   "proceed_rate": 0.06666666666666667,
+   "unsafe_given_proceed": 0.3
+  },
+  {
+   "bound_coverage": 0.7966666666666666,
+   "proceed_rate": 0.10333333333333333,
+   "unsafe_given_proceed": 0.3870967741935484
+  },
+  {
+   "bound_coverage": 0.83,
+   "proceed_rate": 0.20333333333333334,
+   "unsafe_given_proceed": 0.32786885245901637
+  }
+ ],
+ "A: calibrated on default mix | test: perfect stealth (out-of-model)": [
+  {
+   "bound_coverage": 0.13,
+   "proceed_rate": 0.31,
+   "unsafe_given_proceed": 1.0
+  },
+  {
+   "bound_coverage": 0.17333333333333334,
+   "proceed_rate": 0.24666666666666667,
+   "unsafe_given_proceed": 1.0
+  },
+  {
+   "bound_coverage": 0.11333333333333333,
+   "proceed_rate": 0.20333333333333334,
+   "unsafe_given_proceed": 1.0
+  },
+  {
+   "bound_coverage": 0.21,
+   "proceed_rate": 0.20333333333333334,
+   "unsafe_given_proceed": 1.0
+  },
+  {
+   "bound_coverage": 0.006666666666666667,
+   "proceed_rate": 0.5866666666666667,
+   "unsafe_given_proceed": 1.0
+  }
+ ],
+ "B: calibrated on pessimistic mix | test: default mix": [
+  {
+   "bound_coverage": 0.95,
+   "proceed_rate": 0.0,
+   "unsafe_given_proceed": NaN
+  },
+  {
+   "bound_coverage": 0.9666666666666667,
+   "proceed_rate": 0.0,
+   "unsafe_given_proceed": NaN
+  },
+  {
+   "bound_coverage": 0.9566666666666667,
+   "proceed_rate": 0.0,
+   "unsafe_given_proceed": NaN
+  },
+  {
+   "bound_coverage": 0.95,
+   "proceed_rate": 0.013333333333333334,
+   "unsafe_given_proceed": 0.0
+  },
+  {
+   "bound_coverage": 0.98,
+   "proceed_rate": 0.0,
+   "unsafe_given_proceed": NaN
+  }
+ ],
+ "B: calibrated on pessimistic mix | test: pessimistic mix": [
+  {
+   "bound_coverage": 0.9,
+   "proceed_rate": 0.0,
+   "unsafe_given_proceed": NaN
+  },
+  {
+   "bound_coverage": 0.8966666666666666,
+   "proceed_rate": 0.0,
+   "unsafe_given_proceed": NaN
+  },
+  {
+   "bound_coverage": 0.9133333333333333,
+   "proceed_rate": 0.0,
+   "unsafe_given_proceed": NaN
+  },
+  {
+   "bound_coverage": 0.91,
+   "proceed_rate": 0.023333333333333334,
+   "unsafe_given_proceed": 0.14285714285714285
+  },
+  {
+   "bound_coverage": 0.92,
+   "proceed_rate": 0.0033333333333333335,
+   "unsafe_given_proceed": 0.0
+  }
+ ],
+ "B: calibrated on pessimistic mix | test: perfect stealth (out-of-model)": [
+  {
+   "bound_coverage": 0.2866666666666667,
+   "proceed_rate": 0.0,
+   "unsafe_given_proceed": NaN
+  },
+  {
+   "bound_coverage": 0.39,
+   "proceed_rate": 0.0,
+   "unsafe_given_proceed": NaN
+  },
+  {
+   "bound_coverage": 0.32666666666666666,
+   "proceed_rate": 0.0,
+   "unsafe_given_proceed": NaN
+  },
+  {
+   "bound_coverage": 0.25,
+   "proceed_rate": 0.03666666666666667,
+   "unsafe_given_proceed": 1.0
+  },
+  {
+   "bound_coverage": 0.30666666666666664,
+   "proceed_rate": 0.0033333333333333335,
+   "unsafe_given_proceed": 1.0
+  }
+ ]
+}

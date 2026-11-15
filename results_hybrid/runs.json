@@ -1,0 +1,218 @@
+{
+ "A: shipped gate (11 features) | default mix": [
+  {
+   "cov": 0.9066666666666666,
+   "proceed": 0.29,
+   "unsafe_given_proceed": 0.11494252873563218
+  },
+  {
+   "cov": 0.9,
+   "proceed": 0.4266666666666667,
+   "unsafe_given_proceed": 0.0234375
+  },
+  {
+   "cov": 0.9266666666666666,
+   "proceed": 0.34,
+   "unsafe_given_proceed": 0.00980392156862745
+  },
+  {
+   "cov": 0.93,
+   "proceed": 0.37666666666666665,
+   "unsafe_given_proceed": 0.017699115044247787
+  },
+  {
+   "cov": 0.91,
+   "proceed": 0.33,
+   "unsafe_given_proceed": 0.06060606060606061
+  }
+ ],
+ "H: hybrid gate (+ autoencoder score) | default mix": [
+  {
+   "cov": 0.8766666666666667,
+   "proceed": 0.6433333333333333,
+   "unsafe_given_proceed": 0.015544041450777202
+  },
+  {
+   "cov": 0.8866666666666667,
+   "proceed": 0.68,
+   "unsafe_given_proceed": 0.00980392156862745
+  },
+  {
+   "cov": 0.9666666666666667,
+   "proceed": 0.6566666666666666,
+   "unsafe_given_proceed": 0.0
+  },
+  {
+   "cov": 0.8933333333333333,
+   "proceed": 0.7433333333333333,
+   "unsafe_given_proceed": 0.008968609865470852
+  },
+  {
+   "cov": 0.8666666666666667,
+   "proceed": 0.71,
+   "unsafe_given_proceed": 0.03286384976525822
+  }
+ ],
+ "A: shipped gate (11 features) | load range 0.6-1.4": [
+  {
+   "cov": 0.91,
+   "proceed": 0.28,
+   "unsafe_given_proceed": 0.09523809523809523
+  },
+  {
+   "cov": 0.8766666666666667,
+   "proceed": 0.4,
+   "unsafe_given_proceed": 0.05
+  },
+  {
+   "cov": 0.89,
+   "proceed": 0.4633333333333333,
+   "unsafe_given_proceed": 0.04316546762589928
+  },
+  {
+   "cov": 0.9033333333333333,
+   "proceed": 0.31333333333333335,
+   "unsafe_given_proceed": 0.05319148936170213
+  },
+  {
+   "cov": 0.9433333333333334,
+   "proceed": 0.36333333333333334,
+   "unsafe_given_proceed": 0.027522935779816515
+  }
+ ],
+ "H: hybrid gate (+ autoencoder score) | load range 0.6-1.4": [
+  {
+   "cov": 0.8833333333333333,
+   "proceed": 0.6533333333333333,
+   "unsafe_given_proceed": 0.015306122448979591
+  },
+  {
+   "cov": 0.88,
+   "proceed": 0.67,
+   "unsafe_given_proceed": 0.009950248756218905
+  },
+  {
+   "cov": 0.9433333333333334,
+   "proceed": 0.6566666666666666,
+   "unsafe_given_proceed": 0.0
+  },
+  {
+   "cov": 0.9066666666666666,
+   "proceed": 0.66,
+   "unsafe_given_proceed": 0.025252525252525252
+  },
+  {
+   "cov": 0.8766666666666667,
+   "proceed": 0.69,
+   "unsafe_given_proceed": 0.00966183574879227
+  }
+ ],
+ "A: shipped gate (11 features) | 90% adaptive / stealth-partial": [
+  {
+   "cov": 0.8166666666666667,
+   "proceed": 0.22,
+   "unsafe_given_proceed": 0.3181818181818182
+  },
+  {
+   "cov": 0.75,
+   "proceed": 0.19,
+   "unsafe_given_proceed": 0.38596491228070173
+  },
+  {
+   "cov": 0.85,
+   "proceed": 0.08333333333333333,
+   "unsafe_given_proceed": 0.24
+  },
+  {
+   "cov": 0.8533333333333334,
+   "proceed": 0.12333333333333334,
+   "unsafe_given_proceed": 0.3783783783783784
+  },
+  {
+   "cov": 0.8133333333333334,
+   "proceed": 0.12666666666666668,
+   "unsafe_given_proceed": 0.2894736842105263
+  }
+ ],
+ "H: hybrid gate (+ autoencoder score) | 90% adaptive / stealth-partial": [
+  {
+   "cov": 0.8366666666666667,
+   "proceed": 0.23666666666666666,
+   "unsafe_given_proceed": 0.09859154929577464
+  },
+  {
+   "cov": 0.84,
+   "proceed": 0.32666666666666666,
+   "unsafe_given_proceed": 0.02040816326530612
+  },
+  {
+   "cov": 0.9433333333333334,
+   "proceed": 0.23666666666666666,
+   "unsafe_given_proceed": 0.014084507042253521
+  },
+  {
+   "cov": 0.8366666666666667,
+   "proceed": 0.3433333333333333,
+   "unsafe_given_proceed": 0.05825242718446602
+  },
+  {
+   "cov": 0.7866666666666666,
+   "proceed": 0.32666666666666666,
+   "unsafe_given_proceed": 0.07142857142857142
+  }
+ ],
+ "A: shipped gate (11 features) | perfect stealth (out-of-model)": [
+  {
+   "cov": 0.09,
+   "proceed": 0.4866666666666667,
+   "unsafe_given_proceed": 1.0
+  },
+  {
+   "cov": 0.02,
+   "proceed": 0.3233333333333333,
+   "unsafe_given_proceed": 1.0
+  },
+  {
+   "cov": 0.08666666666666667,
+   "proceed": 0.17333333333333334,
+   "unsafe_given_proceed": 1.0
+  },
+  {
+   "cov": 0.17333333333333334,
+   "proceed": 0.39,
+   "unsafe_given_proceed": 1.0
+  },
+  {
+   "cov": 0.16666666666666666,
+   "proceed": 0.2733333333333333,
+   "unsafe_given_proceed": 1.0
+  }
+ ],
+ "H: hybrid gate (+ autoencoder score) | perfect stealth (out-of-model)": [
+  {
+   "cov": 0.93,
+   "proceed": 0.013333333333333334,
+   "unsafe_given_proceed": 1.0
+  },
+  {
+   "cov": 0.9766666666666667,
+   "proceed": 0.0,
+   "unsafe_given_proceed": NaN
+  },
+  {
+   "cov": 0.9933333333333333,
+   "proceed": 0.0,
+   "unsafe_given_proceed": NaN
+  },
+  {
+   "cov": 0.9966666666666667,
+   "proceed": 0.0,
+   "unsafe_given_proceed": NaN
+  },
+  {
+   "cov": 0.9666666666666667,
+   "proceed": 0.0,
+   "unsafe_given_proceed": NaN
+  }
+ ]
+}
