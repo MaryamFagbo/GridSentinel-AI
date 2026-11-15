@@ -2,7 +2,7 @@
 
 <p align="center">
 <a href="https://colab.research.google.com/drive/1Ky0RoWwjTxTo0-KPsxPeu0HLbJhAMpJQ?usp=sharing"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab"></a>
-&nbsp;<b>Website:</b> <a href="WEB">WEBSITE_URL_HERE</a>
+&nbsp;<b>Website:</b> <a href="https://gridsentinel-ai.netlify.app">WEBSITE_URL_HERE</a>
 </p>
 
 **A self-protecting state estimator for smart grids: it detects false data injection attacks, isolates compromised meters, recovers the grid state, and tells the operator how far to trust the result.**
